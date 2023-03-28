@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fafafa;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+
+
+/* MAGIC BUTTON */
+
+.magic {
+    background-color: #f9ca24;
+    color: #fff;
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+
+    border: 0;
+    border-radius: 3px;
+    padding: 12px 20px;
+    box-shadow: 0 3px rgba(249, 202, 36, 0.5);
+
+    position: fixed;
+    top: 20px;
+    z-index: 100;
+    cursor: pointer;
+}
+
+.magic:focus {
+    outline: none;
+}
+
+.magic:active {
+    box-shadow: none;
+    transform: translateY(2px);
+}
+
+
+
+
+/* BOX CONTAINER & BOX ITEM */
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 500px;
+    height: 500px;
+
+    /* directed @ change in width & height of box */
+    transition: 0.4s ease;
+}
+
+.boxes.big {
+    /* power of the class "big" */
+    width: 600px;
+    height: 600px;
+}
+
+.box {
+    /* background settings */
+    background-image: url("https://media.giphy.com/media/EZqwsBSPlvSda/giphy.gif");
+    background-size: 500px 500px;
+
+    /* size settings */
+    width: 125px;
+    height: 125px;
+
+    /* transision setting */
+    transition: 0.3s ease;
+}
+
+.boxes.big .box {
+    /* power of the class big */
+    transform: rotateZ(360deg);
+}
+
+
+
+
+/*** MODELLING A 3D BOX */
+
+.box::after {
+    content: '';
+    background-color: #f6e58d;
+    /* makes the element block & positionable */
+    position: absolute;
+    height: 100%;
+    width: 15px;
+    right: -15px;
+    top: 8px;
+    transform: skewY(45deg);
+}
+
+.box::before {
+    content: '';
+    background-color: #f9ca24;
+    /* makes the element block & positionable */
+    position: absolute;
+    height: 15px;
+    width: 100%;
+    bottom: -15px;
+    left: 8px;
+    transform: skewX(45deg);
+
+}
