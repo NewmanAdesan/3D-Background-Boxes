@@ -13,10 +13,10 @@
 
   
 # 3D-Background-Boxes: Web Animation &amp; Effect
-  Three main concepts outlines the foundation of this project
-  - background image decentralization
-  - transistion via a class name
-  - 3d box modelling with `::before` and `::after`
+  This project is built upon three foundational concepts:
+  - Background Image Fragmentation
+  - CSS & JavaScript Animation Toggling 
+  - Cube Modelling with `::before` and `::after`
 
 
 # Project Screenshots
@@ -27,37 +27,37 @@
 
   
   
-# Concept 1: background image decentralization
-  basically we have 16 different elements of equal size (height & width)<br />
-  using the same background image.
+# Concept 1: Background Image Fragmentation
+  Our implementation involves dividing a larger background image into 16 equal-sized parts and<br />
+  displaying each part on a separate element using CSS.
   
-  Since the is bigger in size than the element,<br />
-  each element shows a part of the background image
+  By utilizing the background-image, background-size, and background-position properties,<br />
+  each element displays a distinct section of the background image,<br />
+  creating a visually cohesive and engaging design. 
   
-  This is implemented with the CSS properties:<br />
-  `background-image`, `background-size`, `background-positioning`
+  This approach provides an efficient and effective method<br />
+  for implementing complex background images in web design.
   
   <img src="./ReadMe-Images/concept1-image1.svg" style="width:600px; height:auto">
   <img src="./ReadMe-Images/concept1-image2.svg" style="width:600px; height:auto">
 
   
   
-# Concept 2: Transitioning via a class name
-basically we styled our target element such that<br />
-if it has a class called "big", two things would happen;
-- it would have a different size <br />
-- children of this our target element <br />
-  would go through a transformation (rotateZ(360)) 
+# Concept 2: CSS & JavaScript Animation Toggling
+Our implementation involves styling a target element with a class called 'big' using CSS,<br/>
+resulting in a different size and a transformation effect (rotateZ(360)) for its children.
 
-then we used javascript to toggle this class on/off from an element<br />
-at the click of a button using the `classList.toggle()` method
+We then used JavaScript to toggle this class on and off <br />
+from an element upon a button click event, utilizing the classList.toggle() method.
+
+This allows for dynamic and visually engaging animation effects with minimal code.
 
 <img src="./ReadMe-Images/concept2-image1.svg" style="width:600px; height:auto">
 <img src="./ReadMe-Images/concept2-image2.svg" style="width:600px; height:auto">
 
   
   
-# Concept 3: 3d box modelling with `::before` and `::after`
+# Concept 3: Cube Modelling with `::before` and `::after`
 <img src="./ReadMe-Images/concept3-image1.png" style="width:600px; height:auto">
 <img src="./ReadMe-Images/concept3-image2.svg" style="width:600px; height:auto">
 <img src="./ReadMe-Images/concept3-image3.svg" style="width:600px; height:auto">
