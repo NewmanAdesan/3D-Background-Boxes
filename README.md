@@ -1,7 +1,7 @@
 
 
 <p align="center">
-  <img src="./ReadMe-Images/Web-Effect-Project-banner.png">
+  <img src="./ReadMe-Images/Web-Effect-Project-banner3.png">
 </p>
 <p align="center">
   <img src="https://img.shields.io/badge/HTML-E34F26.svg" alt="HTML badge" style="height: 25px;">
