@@ -37,6 +37,7 @@
   This is implemented with the CSS properties:<br />
   `background-image`, `background-size`, `background-positioning`
   
-  <img src="./ReadMe-Images/concept1-image1.svg"><img src="./ReadMe-Images/concept1-image2.png">
+  <img src="./ReadMe-Images/concept1-image1.svg">
+  <img src="./ReadMe-Images/concept1-image2.svg" style="width:600px; height:auto">
 
 
