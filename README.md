@@ -1,7 +1,7 @@
 
 
 <p align="center">
-  <img src="./ReadMe-Images/Growth_Project%20(1).png">
+  <img src="./ReadMe-Images/Web-Effect-Project-banner2.png">
 </p>
 <p align="center">
   <img src="https://img.shields.io/badge/HTML-E34F26.svg" alt="HTML badge" style="height: 25px;">
@@ -44,14 +44,23 @@
   
 # Concept 2: Transitioning via a class name
 basically we styled our target element such that<br />
-if it has a class called "big"<br />
-two things would happen.
+if it has a class called "big", two things would happen;
+- it would have a different size <br />
+- children of this our target element <br />
+  would go through a transformation (rotateZ(360)) 
 
-1. it would have a different size <br />
-2. children of this our target element <br />
-   would go through a transformation (rotateZ(360)) 
-
-then we used javascript to toggle this class on/off from an element
+then we used javascript to toggle this class on/off from an element<br />
 at the click of a button using the `classList.toggle()` method
+
+<img src="./ReadMe-Images/concept2-image1.svg" style="width:600px; height:auto">
+<img src="./ReadMe-Images/concept2-image2.svg" style="width:600px; height:auto">
+
+  
+  
+# Concept 3: 3d box modelling with `::before` and `::after`
+<img src="./ReadMe-Images/concept3-image1.png" style="width:600px; height:auto">
+<img src="./ReadMe-Images/concept3-image2.svg" style="width:600px; height:auto">
+<img src="./ReadMe-Images/concept3-image3.svg" style="width:600px; height:auto">
+
 
 
