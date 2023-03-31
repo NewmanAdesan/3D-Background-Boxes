@@ -1,12 +1,15 @@
-<center>
+
+
+<p align="center">
   <img src="./ReadMe-Images/Growth_Project%20(1).png">
-</center>
-<br/>
-<center>
-  <img src="https://img.shields.io/badge/HTML-E34F26.svg">
-  <img src="https://img.shields.io/badge/CSS-1572B6.svg"> 
-  <img src="https://img.shields.io/badge/JS-F7DF1E.svg">
-</center>
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML-E34F26.svg" alt="HTML badge" style="height: 30px;">
+  <img src="https://img.shields.io/badge/CSS-1572B6.svg" alt="CSS badge" style="height: 30px;"> 
+  <img src="https://img.shields.io/badge/JS-F7DF1E.svg" alt="JS badge" style="height: 30px;">
+  <img src="https://img.shields.io/badge/Jest-C21325.svg" alt="Jest badge" style="height: 30px;">
+  <img src="https://img.shields.io/badge/Web Effect-4AB2B4.svg" alt="Web Effect badge" style="height: 30px;">
+</p>
 
   
 # 3D-Background-Boxes: Web Animation &amp; Effect
