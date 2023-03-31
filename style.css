@@ -96,10 +96,13 @@ body {
 .box::after {
     content: '';
     background-color: #f6e58d;
-    /* makes the element block & positionable */
-    position: absolute;
+
+    /* size */
     height: 100%;
     width: 15px;
+
+    /* makes the element block & positionable */
+    position: absolute;
     right: -15px;
     top: 8px;
     transform: skewY(45deg);
@@ -108,12 +111,17 @@ body {
 .box::before {
     content: '';
     background-color: #f9ca24;
-    /* makes the element block & positionable */
-    position: absolute;
+
+    /* size */
     height: 15px;
     width: 100%;
+
+    /* position */
+    position: absolute;
     bottom: -15px;
     left: 8px;
+
+    /* transformation */
     transform: skewX(45deg);
 
 }
