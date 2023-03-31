@@ -1,7 +1,6 @@
-<center># 3D-Background-Boxes: Web Animation &amp; Effect<center>
+
   
-  
- # Project Design
+# 3D-Background-Boxes: Web Animation &amp; Effect
   Three main concepts outlines the foundation of this project
   - background image decentralization
   - transistion via class naming
@@ -9,6 +8,13 @@
   
   
   # Concept 1: background image decentralization
-  basically
+  basically we have 16 different elements of equal size (height & width)
+  using the same background image. 
+  
+  Since the is bigger in size than the element,
+  each element shows a part of the background image
+  
+  This is implemented with the CSS properties
+  `background-image`, `background-size`, `background-positioning`
 
 
