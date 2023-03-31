@@ -22,7 +22,7 @@
 # Project Screen-shots
 <p align="center">
   <img src="./ReadMe-Images/project-screeshot1.jpg">
-  <img src="./ReadMe-Images/project-screenshot2.jpg">
+  <img src="./ReadMe-Images/project-screenshot3.jpg">
 </p>
 
   
