@@ -1,11 +1,11 @@
 <center>
-<img src="./ReadMe-Images/Growth_Project%20(2).png">
+  <img src="./ReadMe-Images/Growth_Project%20(1).png">
 </center>
 <br/>
 <center>
-<img src="https://img.shields.io/badge/HTML-E34F26.svg">
-<img src="https://img.shields.io/badge/CSS-1572B6.svg"> 
-<img src="https://img.shields.io/badge/JS-F7DF1E.svg">
+  <img src="https://img.shields.io/badge/HTML-E34F26.svg">
+  <img src="https://img.shields.io/badge/CSS-1572B6.svg"> 
+  <img src="https://img.shields.io/badge/JS-F7DF1E.svg">
 </center>
 
   
