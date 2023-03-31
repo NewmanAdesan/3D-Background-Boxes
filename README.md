@@ -19,7 +19,7 @@
   - 3d box modelling with `::before` and `::after`
 
 
-# Project Screen-shots
+# Project Screenshots
 <p align="center">
   <img src="./ReadMe-Images/project-screeshot1.jpg">
   <img src="./ReadMe-Images/project-screenshot3.jpg">
