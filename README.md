@@ -15,7 +15,7 @@
 # 3D-Background-Boxes: Web Animation &amp; Effect
   Three main concepts outlines the foundation of this project
   - background image decentralization
-  - transistion via class naming
+  - transistion via a class name
   - 3d box modelling with `::before` and `::after`
 
 
@@ -39,5 +39,19 @@
   
   <img src="./ReadMe-Images/concept1-image1.svg" style="width:600px; height:auto">
   <img src="./ReadMe-Images/concept1-image2.svg" style="width:600px; height:auto">
+
+  
+  
+# Concept 2: Transitioning via a class name
+basically we styled our target element such that<br />
+if it has a class called "big"<br />
+two things would happen.
+
+1. it would have a different size <br />
+2. children of this our target element <br />
+   would go through a transformation (rotateZ(360)) 
+
+then we used javascript to toggle this class on/off from an element
+at the click of a button using the `classList.toggle()` method
 
 
