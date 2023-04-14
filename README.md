@@ -61,6 +61,3 @@ This allows for dynamic and visually engaging animation effects with minimal cod
 <img src="./ReadMe-Images/concept3-image1.png" style="width:600px; height:auto">
 <img src="./ReadMe-Images/concept3-image2.svg" style="width:600px; height:auto">
 <img src="./ReadMe-Images/concept3-image3.svg" style="width:600px; height:auto">
-
-
-
